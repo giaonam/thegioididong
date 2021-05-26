@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.small{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*start item details*/
+.item-link{
+    text-decoration: none;
+    color: black;
+}
+
+.tra-gop{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 2px;
+    border-radius: 2px;
+    background-size: auto;
+    background-color: lightgray;    
+}
+
+.item-name{    
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.item-cost{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.item-rating{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+/*end item details*/
+
+/* begin form*/
+.slider{
+    width: 1300px;
+    height: 400px;
+    
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.big-ad{
+    width: 1300px;
+    height: 70px;
+    border: 1px solid #fed100;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.daly-sale{
+    width: 1300px;
+    height: 510px;
+    border: 1px solid #fed100;
+    background-color:#fed100 ;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.top-phone{
+    width: 1300px;
+    height: 850px;
+    border: 1px solid #fed100;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.top-labtop{
+    width: 1300px;
+    height: 850px;
+    border: 1px solid #fed100;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*end form*/
+
+/*start title*/
+.sale-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px 10px 0 10px;
+}
+
+.phone-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+    font-size: 25px;
+    margin: 10px;
+}
+
+.lab-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+    font-size: 25px;
+    margin: 10px;
+}
+/*end title*/
+
+/*start slider*/
+.slide{
+    height: 100%;
+    width: 890px;
+    background-color: burlywood;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.slide-ad{
+    height: 100%;
+    width: 400px;    
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    place-items: center;
+}
+
+.slide-ad img{
+    height: 195px;
+    width: 195px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+/*end slider*/
+
+/*start top sale*/
+.top-sale{
+     
+    width: 1300px;
+    height: 470px;
+}
+
+.top-sale-item-contain{
+    height: 100%;
+    width: 256px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-sale-item{
+    height: 95%;
+    width: 95%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-sale-item-details{
+    height: 95%;
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;   
+}
+
+.top-sale-item-details-img{
+    width: 100%;
+    height: 270px;
+    position: relative;
+}
+
+.top-sale-item-details img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;    
+    transition: ease 0.3s;
+}
+
+.item-link:hover img{
+    transform: translateY(-17px);
+}
+
+.item-link:hover .item-name{
+    color: blue;
+}
+/*end top sale*/

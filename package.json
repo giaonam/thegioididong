@@ -1,0 +1,29 @@
+{
+  "name": "fistapp",
+  "version": "1.0.0",
+  "description": "hi",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giaonam/Fistapp.git"
+  },
+  "author": "namGP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giaonam/Fistapp/issues"
+  },
+  "homepage": "https://github.com/giaonam/Fistapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
